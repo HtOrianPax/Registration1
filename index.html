@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="mailto:harshsturkar@gmail.com?subject=Registration%20Form%20Data" method="post" enctype="text/plain">
+        
+        <!--First Name and Last Name-->
+        <label for="firstname">FIRST NAME:</label><br>
+        <input type="text"  name="fname" required><br><br>
+        
+        <label for="fathername">FATHER NAME:</label><br>
+        <input type="text"  name="fname" required><br><br>
+
+        <label for="mothername">MOTHER NAME:</label><br>
+        <input type="text"  name="fname" required><br><br>
+
+        <label for="lastname">LAST NAME:</label><br>
+        <input type="text"  name="lname" required><br><br>
+
+        <!--Email-->
+        <label for="email"> EMAIL:</label><br>
+        <input type="email"  name="email" required><br><br>
+
+        <!--password-->
+        <label for="password">PASSWORD: </label><br>
+        <input type="password"  name="password" required><br><br>
+
+        <!--Date Of Birth-->
+        <label for="dob">DATE OF BIRTH:</label><br>
+        <input type="date"  name="dob" required><br><br>
+
+        <!--Gender-->
+        <label for="gender">GENDER:</label>
+        <input type="radio"  name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio"  name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <!--Address-->
+        <label for="address">ADDRESS:</label>
+        <input type="text" name="address" required><br><br>
+
+        <!--Pincode-->
+        <label for="pincode">PINCODE:</label>
+        <input type="number" name="pincode" required><br><br>
+
+        <!--Moblie Number-->
+        <label for="MobileNumber">MOBILE NUMBER:</label>
+        <input type="number" name="Mobile Number" ><br><br>
+
+        <!--State-->
+        <label for="State">STATE:</label>
+        <select>
+            <option>MAHARASHTRA</option>
+            <option>MADHYA PRADESH</option>
+            <option>GOA</option>
+            <option>KERLA</option>
+            <option>PUNJAB</option>
+            <option>UTTAR PRADESH</option>
+            <option>JHARKHAND</option>
+        </select><br><br>
+
+        <!--City-->
+        <label for="City">CITY:</label>
+        <select>
+            <option>NAGPUR</option>
+            <option>SEONI</option>
+            <option>PANAJI</option>
+            <option>KOCHI</option>
+            <option>AMRITSAR</option>
+            <option>AGRA</option>
+            <option>RANCHI</option>
+        </select><br><br>
+
+        <!--Profile Photo Upload-->
+        <label for="profile">PICTURE:</label>
+        <input type="file" name="Picture"><br><br>
+        
+        <!--Terms & Conditions-->
+        <input type="checkbox"  name="Terms" required>
+        <label for="Terms">I agree to the terms and conditions.</label><br><br>    
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <a href="td:8261051881">CONTACT US</a>
+</body>
+</html>
